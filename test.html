@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <meta name="description" content="Enjoy your vacation: Book your room with us ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="newonecss.css">
+    <title>Book your stay with us</title>
+</head>
+   
+<body>
+    <header>
+        <a href="index.html" class="pirveli"><img src="images/colosseum.png" alt=""></i>Discover eternal city</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="index.html" target="_blank">Home</a>
+            <a href="chiesa.html" target="_blank"> Sant Ignazio</a>
+            <a href="spanishsteps.html" target="_blank">Spanish steps</a>
+            <a href="testfregene.html" target="_blank">Fregene</a>
+            <a href="test.html" target="_blank">Booking</a>
+          </div>
+        </div>
+      </header>
+
+
+     <main>
+        <section class="vero">
+            <video class="video-slider active" src="videos/chiesamirror.mp4" autoplay muted loop></video>
+           
+        <img src="/" alt="">
+
+        <div class="scrollarrow"><i class="fa-solid fa-arrow-down" id="scrolldown"></i></div>
+        
+        <form action="" id="registration-form" method="POST">
+            <h2 class="formheader"> Book your tour with us</h2>
+            <div>
+              <input
+                type="text"
+                name="myusername"
+                id="username"
+                placeholder="Enter your username"
+              />
+              <span class="error-text" id="error_myusername"></span>
+            </div>
+            <div>
+              <input
+                type="password"
+                name="mypassword"
+                id="passw"
+                placeholder="Enter your password"
+              />
+              <span class="error-text" id="error_mypassword"></span>
+            </div>
+            <div>
+              <input
+                type="password"
+                name="mypassword2"
+                id="passw2"
+                placeholder="Repeat your password"
+              />
+              <span class="error-text" id="error_mypassword2"></span>
+            </div>
+            <div class="different">
+              <h3 class="selectage">Select your age</h3>
+              <label for="age1">18-30</label>
+              <input type="radio" name="age" id="age1" />
+    
+              <label for="age2">30-45</label>
+              <input type="radio" name="age" id="age2" />
+    
+              <span class="error-text" id="error_age"></span>
+            </div>
+            <div class="different">
+              <label for="agree">Accept our terms and conditions</label>
+              <input type="checkbox" name="agree" id="agree" />
+              <span class="error-text" id="error_agree"></span>
+            </div>
+    
+            <div class="iconhide">
+              <input
+                type="password"
+                name="showpassword"
+                id="showHide"
+                placeholder="show-hide password"
+              />
+              <i class="fa-solid fa-eye" id="toggle-icon"></i>
+            </div>
+    
+            <div>
+              <input
+                type="email"
+                name="emailfield"
+                id="myEmail"
+                placeholder="example@mail.com"
+              />
+              <span id="text" class="email-error"></span>
+            </div>
+    
+            <input type="submit" name="submit" id="submit" value="BOOK" />
+          </form>
+            <div class="icons">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a>
+              </div>
+              
+        
+     </main>
+     
+
+     <script src="newonescript.js"></script>
+     <script src="validation.js"></script>
+     <script src="accordionscroll.js"></script>
+
+</body>
+</html>
